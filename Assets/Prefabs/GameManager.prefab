@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7092695305684078030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7918214871758087423}
+  - component: {fileID: 7092695305684078028}
+  - component: {fileID: 7092695305684078029}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7918214871758087423
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7092695305684078030}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7092695305684078028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7092695305684078030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3bc473d5160774cb7b66624b59393c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemiesInput:
+  - {fileID: 259084378618725313, guid: 1aa2fc61e04d4714291d5dc7dcabe804, type: 3}
+  - {fileID: 6192204567909824361, guid: efd27e5203ad45e4e90e4adab89992c9, type: 3}
+--- !u!114 &7092695305684078029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7092695305684078030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c35aabb102fc0f49881248c13382ebf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AbilititesInput:
+  - {fileID: 11400000, guid: 5dd332348ebd95d43af78c52d62989fb, type: 2}
+  emptyAbilityInput: {fileID: 11400000, guid: 327a3ce62da96c9489db0e8cbe801fda, type: 2}
